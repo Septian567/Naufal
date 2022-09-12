@@ -36,27 +36,29 @@ img {
     color: #000;
     text-align: center;
     font-family: 'monaco', monospace;
+    display: block;
+    margin: auto;
 
 }
 
 .card {
     border-radius: 5px;
-    padding: 50px;
+    padding: 40px;
     background-color: #f8f8ff;
 }
 
 .audio {
     margin: 15px;
     padding: auto;
-    text-align: center;
+    text-align:center;
 }
 
 @media screen and (max-width: 1000px) {
     body {
-        width: 100%;
-        padding: 0;
+      width: 100%;
+      padding: 0;
     }
-}
+  }
 
 p {
     text-align: center;
@@ -66,40 +68,4 @@ p {
 footer {
     padding: 20px;
     background-color: rgb(146, 187, 219);
-}
-
-/* slider */
-
-.prev {
-    position: absolute;
-    top: 50%;
-    padding: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: -90px;
-    margin-left: -150px;
-    /* border: 1px solid #dceb09; */
-    border: transparent;
-}
-
-.prev:hover {
-    background-color: black;
-}
-
-.next {
-    position: absolute;
-    top: 50%;
-    padding: 5px;
-    color: white;
-    font-weight: bold;
-    cursor: pointer;
-    margin-top: -90px;
-    margin-left: 130px;
-    /* border: 1px solid #dceb09; */
-    border: transparent;
-}
-
-.next:hover {
-    background-color: black;
 }
