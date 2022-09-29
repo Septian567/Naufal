@@ -69,3 +69,41 @@ footer {
     padding: 20px;
     background-color: rgb(146, 187, 219);
 }
+
+/* slider */
+
+.prev {
+    position: absolute;
+    top: 50%;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -90px;
+    margin-left: -150px;
+    /* border: 1px solid #dceb09; */
+    border: transparent;
+    font-size: 300;
+}
+
+.prev:hover {
+    background-color: black;
+}
+
+.next {
+    position: absolute;
+    top: 50%;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: -90px;
+    margin-left: 130px;
+    /* border: 1px solid #dceb09; */
+    border: transparent;
+    text-align: right;
+}
+
+.next:hover {
+    background-color: black;
+}
